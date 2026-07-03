@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "CMD CNTR",
+  "version": "0.0.1",
+  "description": "Your browser command center. One page, your whole workflow.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["tabs", "storage"]
+}
